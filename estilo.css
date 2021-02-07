@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{
+    background-image:url("Imagens/body-back.jpg");
+    margin:0;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color:rgb(86, 226, 226);
+}
+div.texto{
+    border-top:2px solid darkorange;
+    background-repeat:no-repeat;
+    background-image:url("Imagens/download.jpg");
+    background-size:100%;
+    transition:1.5s;
+    color:rgb(32, 58, 32);
+    border-bottom:2px solid darkorange;
+}
+div.texto:hover{
+    background-image:url("Imagens/back-texto.jpg");
+    transition:1.5s;
+}
+
+div.Igreja{
+    opacity:0.75;
+    height:10%;
+    width:100%;
+    background-color:rgb(94, 184, 139);
+}
+
+img.image{
+    width:7%;
+    height:100%;
+}
+
+div.info{
+    color:rgb(77, 199, 240);
+    background-repeat: no-repeat;
+    background-image:url("Imagens/Informações.jpg");
+    background-size:100%;
+    border-bottom:2px solid darkorange;
+}
+
+div.localização{
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-image:url("Imagens/localização.jpg");
+    background-size:100%;
+}
+div.localização h3{
+    font-family:arial;
+    text-align:center;
+    border-radius:8px;
+    background-color:dimgray;
+    font-size:20pt;
+}
+
+div.redeSocial{
+    background-color:floralwhite;
+    border-radius:8px;
+    transition:2s;
+}
+div.redeSocial:hover{
+    background-color:rgb(42, 91, 105);
+}
+
+div.redeSocial h3{
+    background-color:gold;
+    border:2px solid darkseagreen;
+    border-radius:8px;
+    width:9%;
+}
+
+
+
+a.facebook{
+    user-select: none;
+    cursor:pointer;
+}
+
+a.facebook img{
+    width:10%;
+    height:10%;;
+}
